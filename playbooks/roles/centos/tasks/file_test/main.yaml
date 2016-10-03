@@ -1,0 +1,4 @@
+- name: Debug host
+  debug:
+    msg: "It is ok"
+  when: "'infra' in group_names"

@@ -1,0 +1,3 @@
+---
+# tasks file for centos
+- include: file_test/main.yaml

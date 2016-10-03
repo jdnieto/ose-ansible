@@ -1,0 +1,7 @@
+packages:
+  - NetworkManager
+  #- bind-utils
+  - vim
+  - bash-completion
+services:
+  - NetworkManager

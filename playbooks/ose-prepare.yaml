@@ -1,0 +1,10 @@
+- hosts: all
+  
+  pre_tasks:
+    - fail:
+        msg: "Variable deployment is required"
+      when: deployment is not defined
+
+  roles:
+    - role: centos
+      when: deployment == "origin"
